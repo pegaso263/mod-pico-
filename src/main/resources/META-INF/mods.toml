@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="evopickaxe"
+version="${file.jarVersion}"
+displayName="Evolving Pickaxe"
+authors="TuNombre"
+description='''
+Un pico evolutivo que sube de velocidad cada 10 bloques, cambia de material cada 50 bloques y otorga Fortuna, Irrompibilidad y Reparación.
+'''
+
+[[dependencies.evopickaxe]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.evopickaxe]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.19.2]"
+    ordering="NONE"
+    side="BOTH"
